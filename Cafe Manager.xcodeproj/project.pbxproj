@@ -130,7 +130,6 @@
 		FD24789E2636F84C007F9D7C /* Cafe Manager */ = {
 			isa = PBXGroup;
 			children = (
-				FDD18452263C5A8200AB3717 /* View */,
 				FDD7A498263BBC1A00594E71 /* TableViewCell */,
 				FD9A63BA263B394400F9EF43 /* Store */,
 				FD9864BF2637CCD800871FDF /* Utilities */,
@@ -159,6 +158,7 @@
 		FD9864AF26371ECC00871FDF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FDD18453263C5A8200AB3717 /* XIB */,
 				FD2478A52636F84C007F9D7C /* Main.storyboard */,
 			);
 			path = View;
@@ -198,15 +198,6 @@
 				FDD1844B263C4FAC00AB3717 /* CategoryCollectionViewCell.xib */,
 			);
 			path = Store;
-			sourceTree = "<group>";
-		};
-		FDD18452263C5A8200AB3717 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FDD18453263C5A8200AB3717 /* XIB */,
-			);
-			name = View;
-			path = "../../../../Downloads/CafeManagerTutorial-origin/CafeManagerTest/View";
 			sourceTree = "<group>";
 		};
 		FDD18453263C5A8200AB3717 /* XIB */ = {
