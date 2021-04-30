@@ -9,7 +9,6 @@ import UIKit
 
 class MenuViewController: UIViewController {
     
-    
     @IBOutlet weak var txtFoodName: UITextField!
     
     @IBOutlet weak var txtFoodDescription: UITextField!
