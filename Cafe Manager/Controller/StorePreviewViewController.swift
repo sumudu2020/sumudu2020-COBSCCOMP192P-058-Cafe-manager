@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import Loaf
 
 class StorePreviewViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,3 +45,4 @@ class StorePreviewViewController: UIViewController, UITableViewDataSource, UITab
     
 
 }
+

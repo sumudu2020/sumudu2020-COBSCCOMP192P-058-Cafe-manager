@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell" customModule="Cafe_Manager" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smp-gR-yhO">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="category Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRC-p1-GKI">
+                                <rect key="frame" x="10" y="11" width="80" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="NRC-p1-GKI" secondAttribute="bottom" constant="11" id="8XJ-97-2DV"/>
+                            <constraint firstAttribute="trailing" secondItem="NRC-p1-GKI" secondAttribute="trailing" constant="10" id="UIv-Fu-MCO"/>
+                            <constraint firstItem="NRC-p1-GKI" firstAttribute="leading" secondItem="smp-gR-yhO" secondAttribute="leading" constant="10" id="h78-rR-UCf"/>
+                            <constraint firstItem="NRC-p1-GKI" firstAttribute="top" secondItem="smp-gR-yhO" secondAttribute="top" constant="11" id="oK6-Ua-7Sa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="smp-gR-yhO" secondAttribute="bottom" id="NsZ-Dw-XTP"/>
+                <constraint firstItem="smp-gR-yhO" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="R1q-zi-iPp"/>
+                <constraint firstItem="smp-gR-yhO" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RpF-OH-1l9"/>
+                <constraint firstAttribute="trailing" secondItem="smp-gR-yhO" secondAttribute="trailing" id="p5s-fj-bb6"/>
+            </constraints>
+            <connections>
+                <outlet property="lblCategoryName" destination="NRC-p1-GKI" id="K93-Tg-Tcd"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="81.696428571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

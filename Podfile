@@ -6,11 +6,11 @@ target 'Cafe Manager' do
   use_frameworks!
 
   # Pods for Cafe Manager
-  pod 'Firebase/Auth'
-  pod 'Firebase/Analytics'
-  pod 'Firebase/Database'
-  pod 'Kingfisher'
-  pod 'Loaf'
-  pod 'SwiftyJSON'
-  
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Kingfisher'
+pod 'Loaf'
+pod 'Firebase/Storage'
+
+
 end

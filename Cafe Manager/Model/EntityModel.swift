@@ -15,14 +15,4 @@ struct manager {
 }
 
 
-struct FoodItem {
-    
-    var id: String
-    var foodname: String
-    var foodDescription : String
-    var foodprice : Double
-    var foodDiscount : Int
-    var image: String
-    var category : String
-    
-}
+
