@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>519898275154-g20g6cm0p7bvj3e7qhfcdt7msrf51ssr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.519898275154-g20g6cm0p7bvj3e7qhfcdt7msrf51ssr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBRdb59MgBQlQv0iHmNaiCOYDkMYaY1hks</string>
+	<key>GCM_SENDER_ID</key>
+	<string>519898275154</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mynew.Cafe-Manager</string>
+	<key>PROJECT_ID</key>
+	<string>cafemanager-b1854</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cafemanager-b1854.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:519898275154:ios:9bf4e13be8a9041cbcee8b</string>
+</dict>
+</plist>
