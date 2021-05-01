@@ -1,8 +1,8 @@
 //
 //  OrderSummaryTableViewCell.swift
-//  CafeManagerTest
+//  CafeManager
 //
-//  Created by Hishara Dilshan on 2021-04-30.
+//  Created by Janani on 2021-04-26.
 //
 
 import UIKit
